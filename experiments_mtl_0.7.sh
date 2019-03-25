@@ -1,264 +1,264 @@
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --ngpu 2
-./run.sh --backend pytorch --ctc_type builtin --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0528 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --tag 0529 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --tag 0530 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --tag 0531 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --tag 0532 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --tag 0533 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0534 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0535 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0536 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0537 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0538 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0539 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0540 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0541 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0542 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0543 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0544 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0545 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0546 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0547 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0548 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0549 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0550 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --tag 0551 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --tag 0552 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --tag 0553 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --tag 0554 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --tag 0555 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0556 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0557 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0558 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0559 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0560 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0561 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0562 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0563 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0564 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0565 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0566 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0567 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0568 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0569 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0570 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0571 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0572 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --tag 0573 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --tag 0574 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --tag 0575 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --tag 0576 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --tag 0577 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0578 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0579 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0580 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0581 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0582 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0583 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0584 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0585 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0586 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0587 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0588 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0589 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0590 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0591 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0592 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype blstmp --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0593 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0594 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --tag 0595 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --tag 0596 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --tag 0597 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --tag 0598 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --tag 0599 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0600 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0601 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0602 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0603 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0604 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0605 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0606 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0607 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0608 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0609 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0610 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0611 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0612 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0613 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0614 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0615 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0616 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --tag 0617 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --tag 0618 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --tag 0619 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --tag 0620 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --tag 0621 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0622 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0623 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0624 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0625 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0626 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0627 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0628 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0629 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0630 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0631 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0632 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0633 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0634 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0635 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0636 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0637 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0638 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --tag 0639 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --tag 0640 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --tag 0641 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --tag 0642 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --tag 0643 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0644 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0645 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0646 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0647 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0648 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0649 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0650 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0651 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0652 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0653 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0654 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0655 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0656 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0657 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0658 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggblstmp --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0659 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0660 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --tag 0661 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --tag 0662 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --tag 0663 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --tag 0664 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --tag 0665 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0666 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0667 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0668 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0669 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0670 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0671 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0672 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0673 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0674 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0675 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0676 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0677 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0678 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0679 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0680 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0681 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0682 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --tag 0683 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --tag 0684 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --tag 0685 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --tag 0686 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --tag 0687 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0688 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0689 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0690 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0691 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0692 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0693 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0694 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0695 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0696 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0697 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0698 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0699 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0700 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0701 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0702 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0703 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0704 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --tag 0705 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --tag 0706 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --tag 0707 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --tag 0708 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --tag 0709 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0710 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0711 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0712 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0713 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0714 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0715 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0716 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0717 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0718 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0719 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0720 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0721 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0722 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0723 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0724 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype bgrup --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0725 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0726 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype dot --dtype gru --transtype phn --stage 3 --tag 0727 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype add --dtype lstm --transtype phn --stage 3 --tag 0728 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype add --dtype gru --transtype phn --stage 3 --tag 0729 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location --dtype lstm --transtype phn --stage 3 --tag 0730 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location --dtype gru --transtype phn --stage 3 --tag 0731 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0732 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0733 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0734 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0735 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0736 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0737 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0738 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0739 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0740 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0741 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0742 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0743 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0744 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0745 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0746 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 1 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0747 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0748 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype dot --dtype gru --transtype phn --stage 3 --tag 0749 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype add --dtype lstm --transtype phn --stage 3 --tag 0750 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype add --dtype gru --transtype phn --stage 3 --tag 0751 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location --dtype lstm --transtype phn --stage 3 --tag 0752 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location --dtype gru --transtype phn --stage 3 --tag 0753 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0754 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0755 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0756 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0757 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0758 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0759 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0760 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0761 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0762 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0763 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0764 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0765 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0766 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0767 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0768 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 3 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0769 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype dot --dtype lstm --transtype phn --stage 3 --tag 0770 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype dot --dtype gru --transtype phn --stage 3 --tag 0771 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype add --dtype lstm --transtype phn --stage 3 --tag 0772 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype add --dtype gru --transtype phn --stage 3 --tag 0773 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location --dtype lstm --transtype phn --stage 3 --tag 0774 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location --dtype gru --transtype phn --stage 3 --tag 0775 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage --dtype lstm --transtype phn --stage 3 --tag 0776 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage --dtype gru --transtype phn --stage 3 --tag 0777 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage_location --dtype lstm --transtype phn --stage 3 --tag 0778 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype coverage_location --dtype gru --transtype phn --stage 3 --tag 0779 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location2d --dtype lstm --transtype phn --stage 3 --tag 0780 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location2d --dtype gru --transtype phn --stage 3 --tag 0781 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location_recurrent --dtype lstm --transtype phn --stage 3 --tag 0782 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype location_recurrent --dtype gru --transtype phn --stage 3 --tag 0783 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_dot --dtype lstm --transtype phn --stage 3 --tag 0784 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_dot --dtype gru --transtype phn --stage 3 --tag 0785 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_add --dtype lstm --transtype phn --stage 3 --tag 0786 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_add --dtype gru --transtype phn --stage 3 --tag 0787 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_loc --dtype lstm --transtype phn --stage 3 --tag 0788 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_loc --dtype gru --transtype phn --stage 3 --tag 0789 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_multi_res_loc --dtype lstm --transtype phn --stage 3 --tag 0790 --ngpu 2
+CUDA_VISIBLE_DEVICES=1,2 ./run.sh --backend pytorch --ctc_weight 0.3 --mtlalpha 0.7 --etype vggbgrup --elayers 5 --atype multi_head_multi_res_loc --dtype gru --transtype phn --stage 3 --tag 0791 --ngpu 2
