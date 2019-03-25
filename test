@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,3 ./run.sh --backend pytorch --mtlalpha 0.5 --ctc_weight 0.3 --etype bgrup --$elayers 4 --atype add --dtype lstm --transtype phn --stage 3 --ngpu 2 --batchsize 10
